@@ -1,0 +1,37 @@
+body
+{
+    background-color: #6091ad;
+}
+
+.blink
+{
+    animation: blinker 1s linear infinite ;
+}
+
+@keyframes blinker
+{
+    50%
+    {
+        opacity:0;
+    }
+}
+
+.col--lines .time{
+    background-color: #000000;
+    color:#FFFF00 ;
+}
+
+.col--traffic
+{
+    background-color: #FFFFFF;
+}
+
+.lines div
+{
+    background-color: #FFFFFF;
+    padding : 20px;
+}
+.line--works
+{
+    background-color: #FFFF00 !important;
+}
